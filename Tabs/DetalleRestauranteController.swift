@@ -15,6 +15,7 @@ class DetalleRestauranteController : UIViewController{
     
     @IBOutlet weak var imgRestaurante: UIImageView!
     @IBOutlet weak var lblDescripcion: UILabel!
+    @IBOutlet weak var lblPuntuacion: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,7 @@ class DetalleRestauranteController : UIViewController{
             lblDescripcion.text = descripcion
             
             imgRestaurante.image=restauranteActual.imagen
+            lblPuntuacion.text = "\(restauranteActual.puntuacion)"
         }
     }
 }

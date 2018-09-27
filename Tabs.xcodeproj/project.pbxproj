@@ -21,6 +21,9 @@
 		3DC276AC215D63E800E0FBD5 /* Restaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276AB215D63E800E0FBD5 /* Restaurante.swift */; };
 		3DC276AE215D656500E0FBD5 /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276AD215D656500E0FBD5 /* CeldaRestaurante.swift */; };
 		3DC276B0215D697F00E0FBD5 /* DetalleRestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276AF215D697F00E0FBD5 /* DetalleRestauranteController.swift */; };
+		3DC276B2215D717000E0FBD5 /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276B1215D717000E0FBD5 /* Comentario.swift */; };
+		3DC276B4215D72F600E0FBD5 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276B3215D72F600E0FBD5 /* CeldaComentario.swift */; };
+		3DC276B6215D744D00E0FBD5 /* ComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC276B5215D744D00E0FBD5 /* ComentarioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		3DC276AB215D63E800E0FBD5 /* Restaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante.swift; sourceTree = "<group>"; };
 		3DC276AD215D656500E0FBD5 /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
 		3DC276AF215D697F00E0FBD5 /* DetalleRestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRestauranteController.swift; sourceTree = "<group>"; };
+		3DC276B1215D717000E0FBD5 /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		3DC276B3215D72F600E0FBD5 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
+		3DC276B5215D744D00E0FBD5 /* ComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentarioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,16 +119,19 @@
 			children = (
 				3D3879B7215B066A00E8C0A1 /* AppDelegate.swift */,
 				3D3879B9215B066A00E8C0A1 /* ViewController.swift */,
+				3DC276A9215D634800E0FBD5 /* RestauranteController.swift */,
+				3DC276B5215D744D00E0FBD5 /* ComentarioController.swift */,
 				3D3879BB215B066B00E8C0A1 /* Main.storyboard */,
 				3D3879BE215B068900E8C0A1 /* Assets.xcassets */,
 				3D3879C0215B068900E8C0A1 /* LaunchScreen.storyboard */,
 				3D3879C3215B068900E8C0A1 /* Info.plist */,
 				3D3879E5215B154500E8C0A1 /* Sitio.swift */,
-				3D3879E7215B16CD00E8C0A1 /* CeldaSitio.swift */,
-				3D24E5F9215BDE4000103669 /* DetalleSitioController.swift */,
-				3DC276A9215D634800E0FBD5 /* RestauranteController.swift */,
 				3DC276AB215D63E800E0FBD5 /* Restaurante.swift */,
+				3DC276B1215D717000E0FBD5 /* Comentario.swift */,
+				3D3879E7215B16CD00E8C0A1 /* CeldaSitio.swift */,
 				3DC276AD215D656500E0FBD5 /* CeldaRestaurante.swift */,
+				3DC276B3215D72F600E0FBD5 /* CeldaComentario.swift */,
+				3D24E5F9215BDE4000103669 /* DetalleSitioController.swift */,
 				3DC276AF215D697F00E0FBD5 /* DetalleRestauranteController.swift */,
 			);
 			path = Tabs;
@@ -277,10 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC276B4215D72F600E0FBD5 /* CeldaComentario.swift in Sources */,
 				3DC276AE215D656500E0FBD5 /* CeldaRestaurante.swift in Sources */,
 				3DC276B0215D697F00E0FBD5 /* DetalleRestauranteController.swift in Sources */,
 				3DC276AA215D634800E0FBD5 /* RestauranteController.swift in Sources */,
 				3DC276AC215D63E800E0FBD5 /* Restaurante.swift in Sources */,
+				3DC276B2215D717000E0FBD5 /* Comentario.swift in Sources */,
+				3DC276B6215D744D00E0FBD5 /* ComentarioController.swift in Sources */,
 				3D24E5FA215BDE4000103669 /* DetalleSitioController.swift in Sources */,
 				3D3879E8215B16CD00E8C0A1 /* CeldaSitio.swift in Sources */,
 				3D3879BA215B066A00E8C0A1 /* ViewController.swift in Sources */,

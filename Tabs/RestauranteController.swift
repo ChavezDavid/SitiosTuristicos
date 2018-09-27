@@ -11,7 +11,8 @@ import UIKit
 
 class RestauranteController : UIViewController, UITableViewDataSource, UITableViewDelegate{
     
-    let restaurante : [Restaurante] = [Restaurante(nombre: "Pollo Feliz", descripcion: "Pollos", imagen: #imageLiteral(resourceName: "polloFeliz"), puntuacion: 5.0)]
+    let restaurante : [Restaurante] = [Restaurante(nombre: "Pollo Feliz", descripcion: "Pollos", imagen: #imageLiteral(resourceName: "polloFeliz"), puntuacion: 5.0),
+                                       Restaurante(nombre: "Mochomos", descripcion: "Mochomos?", imagen: #imageLiteral(resourceName: "mochomos"), puntuacion: 4.5)]
     @IBOutlet weak var tbRestaurante: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
